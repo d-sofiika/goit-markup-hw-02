@@ -1,5 +1,5 @@
 body {
-    color: black;
+    color: #434455;
     background-color: #FFFFFF;
     font-family: Roboto, sans-serif;
     
@@ -20,7 +20,8 @@ ul{
     color:#4D5AE5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
-    line-height: 21px;
+    font-weight: 700;
+    line-height: 1.17em;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -40,7 +41,7 @@ ul{
     color: #404BBF;
 }
 .contacts {
-
+    font-style: normal;
 }
 .contacts-list {
 }
@@ -65,7 +66,7 @@ ul{
     text-align: center;
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px; 
+    line-height:1.07em; 
     letter-spacing: 1.12px;
 }
 .btn{
@@ -73,6 +74,9 @@ ul{
     color:#FFFFFF;
     background-color: #4D5AE5; 
     cursor: pointer;
+    line-height:1.5em; 
+    letter-spacing: 0.04em;
+    font-weight: 500
 }
 .btn:hover, .btn:focus{
     background-color: #404BBF;
@@ -100,7 +104,7 @@ ul{
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -126,17 +130,46 @@ ul{
     line-height: 24px; 
     letter-spacing: 0.32px;
 }
-
+/* Section four */
+.portfolio {
+}
+.title-portfolio {
+    color:  #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.portfolio-item {
+}
+.portfolio-image {
+}
+.subtitle {
+    color:  #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+}
+.desc {
+    color:  #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+}
 /* Footer */
 .footer{
     background-color: #2E2F42;
 }
 .logo-white{
     color: #F4F4FD;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.11em;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -144,6 +177,7 @@ ul{
     color: #F4F4FD;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px; 
+    line-height: 1.17; 
     letter-spacing: 0.32px;
 }
+
