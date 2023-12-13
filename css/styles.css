@@ -21,7 +21,7 @@ ul{
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.17em;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -70,7 +70,6 @@ ul{
     letter-spacing: 1.12px;
 }
 .btn{
-    border-radius: 4px;
     color:#FFFFFF;
     background-color: #4D5AE5; 
     cursor: pointer;
@@ -104,7 +103,7 @@ ul{
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.11px;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -138,7 +137,7 @@ ul{
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
@@ -150,7 +149,7 @@ ul{
     color:  #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.2em;
+    line-height: 1.11;
     letter-spacing: 0.02em;
 }
 .desc {
@@ -177,7 +176,7 @@ ul{
     color: #F4F4FD;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.17; 
+    line-height: 1.5; 
     letter-spacing: 0.32px;
 }
 
