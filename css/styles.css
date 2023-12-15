@@ -1,3 +1,4 @@
+/* Base styles */
 body {
     color: #434455;
     background-color: #FFFFFF;
@@ -6,11 +7,15 @@ body {
 }
 a {
     text-decoration: none;
+    color: currentColor;
 }
 ul{
     list-style-type: none;
 }
-
+button{
+    font-family: inherit;
+    color: currentColor;
+}
 /* Header */
 .header {
 }
@@ -57,6 +62,7 @@ ul{
 
 }
 /* Main */ 
+/* Section One */
 .main-title{
     background-color: #2E2F42;
 }
@@ -80,6 +86,7 @@ ul{
     background-color: #404BBF;
     color:#FFFFFF;
 }
+/* Section Two */
 .title-item{
     color:  #2E2F42;
     font-size: 20px;
@@ -93,6 +100,7 @@ ul{
     line-height: 1.5; 
     letter-spacing: 0.32px;
 }
+/* Section Tree */
 .team{
     background-color: #F4F4FD;
 }
@@ -105,6 +113,7 @@ ul{
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
+
 .team-item{
     background: #FFF;
     justify-content: center;
